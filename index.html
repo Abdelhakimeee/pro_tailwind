@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Abdelhakim Outas</title>
+    <link rel="stylesheet" href="stylesh.css">
+</head>
+
+
+<body class="cotainer ">
+    <header><!--header-->
+        <nav class="fixed bg-gray-300 p-5 w-full"><!--add fixed in vav class-->
+            <div class="flex ">
+                <h1 class="mx-40 italic text-xl font-bold text-blue-800 ">
+                    Abdelhakim Outas</h1>
+                <ul class="flex w-fulln mx-auto text-blue-900">
+                    <li class="mr-12"><a href="#home"> Home</a></li>
+                    <li class="mr-12"><a href="#skills"> Skills</a></li> <!--Add # like to inder the page -->
+                    <li class="mr-12"><a href="#projects"> Projects</a></li>
+                    <li class="mr-12"><a href="#contact"> Contact</a></li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+    <main><!--main-->
+        <section id="home"><!--Section_1_Home-->
+            <div class=" bg-[url('img/bg_1.jpg')] bg-cover h-screen ">
+                <div class="flex ">
+                    <div class="mx-24 my-40 text-cyan-100   text-2xl ">
+
+                        <p class="text-5xl text-cyan-200">
+                            I am Abdelhakim Outas</p>
+                        <!--bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full-->
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing. </p>
+                        <button
+                            class="bg-cyan-500  hover:bg-cyan-700 text-white font-blod py-2 px-4 rounded-full mx-20 my-10  ">
+                            More
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skills"><!--Section_2_Skills-->
+            <!--skills_info-->
+            <div class=" text-center p-10 ">
+
+                <h3 class="text-2xl">Skills</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione veritatis nostrum facilis et omnis
+                    placeat.</p>
+            </div>
+            <div class="flex justify-around pt-5">
+                <!--card_skills html-->
+                <div class="w-1/5 hover:py-8 ">
+                    <img src="img/html-img.jpg" alt="html_img">
+                    <p class="ml-24">HTML</p>
+                </div>
+                <!--card_skills css-->
+                <div class="w-1/5 hover:py-8 ">
+                    <img src="img/css-img.jpg" alt="css_img">
+                    <p class="ml-24">CSS</p>
+                </div>
+                <!--card_skills commerce-->
+                <div class="w-1/5 mt-10 hover:py-8 ">
+                    <img src="img/e-commerce.jpg" alt="commerce_img">
+                    <p class="ml-24">COMMERCE</p>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <!--Section_3_projects-->
+        <section id="projects" class="cotainer bg-gray-300 mt-20 mx-20">
+            <!--first_pro 1-->
+            <h2 class="text-5xl text-center p-10 text-cyan-700">
+                Projects</h2>
+            <div class=" flex justify-around ">
+                <div class="w-1/5 ">
+                    <img class="h-40" src="img/img-pro-1.jpg" alt="">
+                    <div>
+                        <h4>My first project with html </h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, corporis?</p>
+                        <button></button>
+                    </div>
+                </div>
+                <!--second_pro 2-->
+                <div class="w-1/5 ">
+                    <img class="h-40" src="img/img-pro-2.jpg" alt="">
+                    <h4>My thisd project with html and css</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, corporis?</p>
+                    <button></button>
+
+                </div>
+                <!--thirs_pro 3-->
+                <div class="w-1/5 ">
+                    <img class="h-40" src="img/img-pro-3.jpg" alt="">
+                    <h4>My thirs project with html and css</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, corporis?</p>
+                    <button></button>
+                </div>
+        </section>
+        <!--form # input the info from user-->
+        <section id="contact" class=" mt-10 ml-80 text-white  px-8 pt-10 text-center  bg-gray-500  w-1/2 border-8 border-blue-900 rounded-2xl h-screen">
+            
+                <div>
+                    <h2 class="text-5xl "
+                    >Contact Us</h2>
+                    <p>Got a question? We'd love to hear from you. Send us a message and we'll respoond as soon as
+                        possible.</p>
+                </div>
+            <form class="flex flex-col ">
+
+                <label class="mt-10  "
+                for="name" id="name-label">Name:
+                    <input class="p-2 rounded-sm bg-gray-300 text-black" id="name" type="text" placeholder="name" required>
+                </label >
+
+                <label class="mt-10  "
+                for="Email" id="email-label">email:
+                    <input class="p-2 rounded-sm bg-gray-300 text-black" type="email" id="email" placeholder="email">   
+                </label>
+
+                <label class="mt-10  ">
+                    
+                    <textarea class="p-5 rounded-lg bg-gray-300 text-black" >Comments </textarea></label>
+                <button class="mt-10 bg-gray-800 hover:bg-blue-800 p-2 rounded-3xl mx-44">Send Message</button>
+
+
+            </form>
+        </section>
+    </main><!--main-->
+
+    <footer class=" bg-[url('img/footer-2.jpg')]   ">
+        
+        <!--add background image-->
+        <div class=" flex justify-between m-10 py-10 text-white">
+            <ul><!--sochel media-->
+                <img>linkdin</p>
+                <img>gitHub</p>
+                <img>insta</p>
+                <img>fb</p>
+                <img>X</p>
+            </ul>
+            <ul>
+                <li>About</li>
+                <li>Give Back</li>
+                <li>Stor</li>
+            </ul>
+            <ul>
+                <li>Ask for Help</li>
+                <li>Archivists</li>
+                <li>Developers</li>
+            </ul>
+        </div>
+        <div class="ml-24 text-red-700 ">
+            <p>@2020 I starte to know more about my self</p>
+
+        </div>
+
+
+
+
+    </footer><!--footer-->
+</body>
+
+</html>
